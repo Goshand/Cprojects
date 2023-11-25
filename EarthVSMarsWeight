@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+  // Add your code below  
+
+double wearth;
+double wmars;
+
+/* Formula:
+wmars = (wearth / 9.81) * 3.2 */
+
+std::cout << "Enter earth weight: ";
+std::cin >> wearth;
+wmars = (wearth / 9.81) * 3.2;
+std::cout << "That would weight " << wmars << " on mars\n";
+
+}
